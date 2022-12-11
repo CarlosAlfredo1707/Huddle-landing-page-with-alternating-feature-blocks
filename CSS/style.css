@@ -285,12 +285,13 @@ footer {
     padding: 5px;
 }
 .footer__copy {
-    width: 100%;
+    display: block;
+    width: 300px;
     text-align: center;
     color: #fff;
     font-family: var(--font1);
     font-size: 13px;
-    margin-top: 40px;
+    margin: 40px auto;
 }
 .footer__fb {
     grid-area: fb;
@@ -513,6 +514,8 @@ footer {
         padding-left: 60px;
     }
     .footer__copy {
+        width: 500px;
+        display: inline-block;
         margin-top: 250px;
         margin-left: 60px;
         text-align: start;
